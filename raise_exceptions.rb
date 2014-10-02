@@ -46,7 +46,7 @@ def invoke_missing_method
 
     # MethodTest#no_such_method
     mt.no_such_method
- 
+
   rescue NoMethodError => e
     puts "e.message = #{e.message}"
     puts "e.backtrace = #{e.backtrace}"
